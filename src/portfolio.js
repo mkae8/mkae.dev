@@ -20,20 +20,20 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Temuujin Batjargal",
+  title: "Hi all, I'm Temuujin",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/126FezojniTcqAkKt_xWG2UScL6Z_etY3/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/mkae8",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
@@ -346,18 +346,7 @@ const talkSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Resume Section
 const resumeSection = {
@@ -399,7 +388,6 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable,
